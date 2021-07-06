@@ -23,10 +23,10 @@ body{
     color: rgba(255, 255, 255, 0.836);
     font-weight: 700;
  }
- section{
+ .flexible-container{
    display: flex;
    width: 90%;
-   padding: 5% 5%;
+   padding: 5% 10% 5% 10%;
  }
  div img{
    width: 100%;
@@ -34,3 +34,30 @@ body{
 .top-section-text-area{
   padding-top: 8%;
 }
+.about-me-area-flexible-container{
+  display: flex;
+  width: 90%;
+  height: 150%;
+  padding-right: 8%;
+  padding-left: 12%;
+  background-image: url(images/shapes/7.png);
+  background-size: 95% 450px;
+  background-repeat: no-repeat;
+}
+.about-me-image-area{
+  width: 50%;
+  height: 150%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.about-me-text-area{
+  width: 60%;
+  padding-right: 20%;
+  padding-left: 10%;
+  text-align: justify;
+}
+#About-Me-title{
+  font-size: 50px;
+
+}
+
